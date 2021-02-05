@@ -30,19 +30,14 @@
                     <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
                     </div>
                     <!-- Navbar Right Side -->
-                    <div class="navbar-nav">
-<<<<<<< HEAD
                     {% if user.is_authenticated %}
+                    <div class="navbar-nav">
                       <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
                       <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
                     {% else %}
                       <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
                       <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
                     {% endif %}
-=======
-                    <a class="nav-item nav-link" href="#">Login</a>
-                    <a class="nav-item nav-link" href="#">Register</a>
->>>>>>> b49511d9d398057b965a781d337063c95f7ca0f5
                     </div>
                 </div>
                 </div>
